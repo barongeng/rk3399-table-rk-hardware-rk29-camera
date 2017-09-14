@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 	hardware/rockchip/camera/SiliconImage/isi/drv/GS8604/calib/GS8604_lens_40100A.xml:system/etc/GS8604_lens_40100A.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV2680/calib/OV2680.xml:system/etc/OV2680.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/HM5040/calib/HM5040.xml:system/etc/HM5040.xml \
-    hardware/rockchip/camera/Config/cam_board_rk3399.xml:system/etc/cam_board.xml
+    hardware/rockchip/camera/Config/cam_board_x3399.xml:system/etc/cam_board.xml
 	
 endif
 
