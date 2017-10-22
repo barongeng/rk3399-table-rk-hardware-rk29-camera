@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
    
     ifeq ($(strip $(BOARD_Y128_CAMERA)), Y128)
     hardware/rockchip/camera/Config/cam_board_x3399.xml:system/etc/cam_board.xml
+    endif
     else
 		hardware/rockchip/camera/Config/cam_board_rk3399.xml:system/etc/cam_board.xml
 		endif
