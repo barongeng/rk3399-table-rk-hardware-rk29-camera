@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
 	hardware/rockchip/camera/SiliconImage/isi/drv/GS8604/calib/GS8604_lens_40100A.xml:system/etc/GS8604_lens_40100A.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV2680/calib/OV2680.xml:system/etc/OV2680.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/HM5040/calib/HM5040.xml:system/etc/HM5040.xml \
-    hardware/rockchip/camera/Config/cam_board_rk3399.xml:system/etc/cam_board.xml \
      hardware/rockchip/camera/mic5/pro_fea_algo.iea:system/lib/pro_fea_algo.iea \
       hardware/rockchip/camera/mic5/pro_fea_data.ied:system/lib/pro_fea_data.ied \
 	  hardware/rockchip/camera/mic5/pro_flash_algo.iea:system/lib/pro_flash_algo.iea \
@@ -53,6 +52,12 @@ PRODUCT_COPY_FILES += \
    
     
 	
+endif
+
+ifeq ($(strip $(BOARD_Y128_CAMERA)), Y128)
+PRODUCT_COPY_FILES +=hardware/rockchip/camera/Config/cam_board_x3399.xml:system/etc/cam_board.xml 
+else
+PRODUCT_COPY_FILES +=hardware/rockchip/camera/Config/cam_board_rk3399.xml:system/etc/cam_board.xml 
 endif
 
 ifeq ($(strip $(TARGET_BOARD_PLATFORM)), rk3366)
