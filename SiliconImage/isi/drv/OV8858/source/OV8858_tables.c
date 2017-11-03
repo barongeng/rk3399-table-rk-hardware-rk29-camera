@@ -250,7 +250,7 @@ const IsiRegDescription_t OV8858_g_aRegDescription_onelane[] =
 	{0x3814 ,0x03,"0x0100",eReadWrite},//x odd inc
 	{0x3815 ,0x01,"0x0100",eReadWrite},//x even inc
 	{0x3820 ,0x00,"0x0100",eReadWrite},//vflip off
-	{0x3821 ,0x65,"0x0100",eReadWrite},//mirror on, bin on
+	{0x3821 ,0x67,"0x0100",eReadWrite},//mirror on, bin on
 	{0x382a ,0x03,"0x0100",eReadWrite},//y odd inc
 	{0x382b ,0x01,"0x0100",eReadWrite},//y even inc
 	{0x3830 ,0x08,"0x0100",eReadWrite},//
@@ -365,7 +365,7 @@ const IsiRegDescription_t OV8858_g_1632x1224_onelane[] =
 	{0x380e ,0x04,"0x0100",eReadWrite},//VTS H
 	{0x380f ,0xdc,"0x0100",eReadWrite},//VTS L
 	{0x3814 ,0x03,"0x0100",eReadWrite},//x odd inc
-	{0x3821 ,0x65,"0x0100",eReadWrite},//mirror on, bin on
+	{0x3821 ,0x67,"0x0100",eReadWrite},//mirror on, bin on
 	{0x382a ,0x03,"0x0100",eReadWrite},//y odd inc
 	{0x3830 ,0x08,"0x0100",eReadWrite},
 	{0x3836 ,0x02,"0x0100",eReadWrite},
@@ -412,7 +412,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_onelane[] =
 	{0x380e ,0x09,"0x0100",eReadWrite},//; VTS H
 	{0x380f ,0xaa,"0x0100",eReadWrite},// ; VTS L
 	{0x3814 ,0x01,"0x0100",eReadWrite},// ; x odd inc
-	{0x3821 ,0x45,"0x0100",eReadWrite},// ; mirror on, bin off
+	{0x3821 ,0x46,"0x0100",eReadWrite},// ; mirror on, bin off
 	{0x382a ,0x01,"0x0100",eReadWrite},// ; y odd inc
 	{0x3830 ,0x06,"0x0100",eReadWrite},//
 	{0x3836 ,0x01,"0x0100",eReadWrite},//
@@ -638,7 +638,7 @@ const IsiRegDescription_t OV8858_g_aRegDescription_twolane[] =
 	{0x3814, 0x03,"0x0100",eReadWrite},
 	{0x3815, 0x01,"0x0100",eReadWrite},
 	{0x3820, 0x00,"0x0100",eReadWrite},
-	{0x3821, 0x65,"0x0100",eReadWrite},
+	{0x3821, 0x67,"0x0100",eReadWrite},
 	{0x382a, 0x03,"0x0100",eReadWrite},
 	{0x382b, 0x01,"0x0100",eReadWrite},
 	{0x3830, 0x08,"0x0100",eReadWrite},
@@ -735,7 +735,7 @@ const IsiRegDescription_t OV8858_g_1632x1224_twolane[] =
 	{0x380e, 0x04,"0x0100",eReadWrite}, // VTS H							 
 	{0x380f, 0xdc,"0x0100",eReadWrite}, // VTS L							 
 	{0x3814, 0x03,"0x0100",eReadWrite}, // x odd inc						 
-	{0x3821, 0x65,"0x0100",eReadWrite}, // mirror on, bin on				 
+	{0x3821, 0x67,"0x0100",eReadWrite}, // mirror on, bin on				 
 	{0x382a, 0x03,"0x0100",eReadWrite}, // y odd inc						 
 	{0x3830, 0x08,"0x0100",eReadWrite}, //									 
 	{0x3836, 0x02,"0x0100",eReadWrite}, //									 
@@ -821,7 +821,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_twolane[] =
 	{0x380e, 0x04,"0x0100",eReadWrite}, // VTS H							 
 	{0x380f, 0xdc,"0x0100",eReadWrite}, // VTS L
 	{0x3814, 0x03,"0x0100",eReadWrite}, // x odd inc						 
-	{0x3821, 0x65,"0x0100",eReadWrite}, // mirror on, bin on				 
+	{0x3821, 0x67,"0x0100",eReadWrite}, // mirror on, bin on				 
 	{0x382a, 0x03,"0x0100",eReadWrite}, // y odd inc						 
 	{0x3830, 0x08,"0x0100",eReadWrite}, //									 
 	{0x3836, 0x02,"0x0100",eReadWrite}, //									 
@@ -860,7 +860,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_twolane[] =
 	{0x380e, 0x09,"0x0100",eReadWrite}, // VTS H						
 	{0x380f, 0xaa,"0x0100",eReadWrite}, // VTS L						
 	{0x3814, 0x01,"0x0100",eReadWrite}, // x odd inc					
-	{0x3821, 0x45,"0x0100",eReadWrite}, // mirror on, bin off			
+	{0x3821, 0x46,"0x0100",eReadWrite}, // mirror on, bin off			
 	{0x382a, 0x01,"0x0100",eReadWrite}, // y odd inc					
 	{0x3830, 0x06,"0x0100",eReadWrite}, //								
 	{0x3836, 0x01,"0x0100",eReadWrite}, //								
@@ -1097,7 +1097,7 @@ const IsiRegDescription_t OV8858_g_aRegDescription_fourlane[] =
 {0x3814 , 0x03 , "0x0100",eReadWrite}, //x odd inc
 {0x3815 , 0x01 , "0x0100",eReadWrite}, //x even inc
 {0x3820 , 0x00 , "0x0100",eReadWrite}, //vflip off
-{0x3821 , 0x65 , "0x0100",eReadWrite}, //mirror on, bin on
+{0x3821 , 0x67 , "0x0100",eReadWrite}, //mirror on, bin on
 {0x382a , 0x03 , "0x0100",eReadWrite}, //y odd inc
 {0x382b , 0x01 , "0x0100",eReadWrite}, //y even inc
 {0x3830 , 0x08 , "0x0100",eReadWrite},
@@ -1251,7 +1251,7 @@ const IsiRegDescription_t OV8858_g_1632x1224_fourlane[] =
 {0x380e , 0x04 , "0x0100",eReadWrite}, //VTS H
 {0x380f , 0xdc , "0x0100",eReadWrite}, //VTS L
 {0x3814 , 0x03 , "0x0100",eReadWrite}, //x odd inc
-{0x3821 , 0x65 , "0x0100",eReadWrite}, //mirror on, bin on
+{0x3821 , 0x67 , "0x0100",eReadWrite}, //mirror on, bin on
 {0x382a , 0x03 , "0x0100",eReadWrite}, //y odd inc
 {0x3830 , 0x08 , "0x0100",eReadWrite},
 {0x3836 , 0x02 , "0x0100",eReadWrite},
@@ -1392,7 +1392,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_fourlane[] =
 {0x380e , 0x09 , "0x0100",eReadWrite}, //VTS H
 {0x380f , 0xaa , "0x0100",eReadWrite}, //VTS L
 {0x3814 , 0x01 , "0x0100",eReadWrite}, //x odd inc
-{0x3821 , 0x45 , "0x0100",eReadWrite}, //mirror on, bin off
+{0x3821 , 0x46 , "0x0100",eReadWrite}, //mirror on, bin off
 {0x382a , 0x01 , "0x0100",eReadWrite}, //y odd inc
 {0x3830 , 0x06 , "0x0100",eReadWrite},
 {0x3836 , 0x01 , "0x0100",eReadWrite},
@@ -1664,7 +1664,7 @@ const IsiRegDescription_t OV8858_g_aRegDescription_fourlane_R2A[] =
 	{0x3814, 0x03, "0x0100",eReadWrite}, // x odd inc																		 
 	{0x3815, 0x01, "0x0100",eReadWrite}, // x even inc																		 
 	{0x3820, 0x00, "0x0100",eReadWrite}, // vflip off																		 
-	{0x3821, 0x65, "0x0100",eReadWrite}, // mirror on, bin on																 
+	{0x3821, 0x67, "0x0100",eReadWrite}, // mirror on, bin on																 
 	{0x382a, 0x03, "0x0100",eReadWrite}, // y odd inc																		 
 	{0x382b, 0x01, "0x0100",eReadWrite}, // y even inc																		 
 	{0x3830, 0x08, "0x0100",eReadWrite},																					 
@@ -1806,7 +1806,7 @@ const IsiRegDescription_t OV8858_g_1632x1224_fourlane_R2A[] =
 	{0x380e, 0x04, "0x0100", eReadWrite}, // VTS H
 	{0x380f, 0xdc, "0x0100", eReadWrite}, // VTS L
 	{0x3814, 0x03, "0x0100", eReadWrite}, // x odd inc
-	{0x3821, 0x65, "0x0100", eReadWrite}, // mirror on, bin on
+	{0x3821, 0x67, "0x0100", eReadWrite}, // mirror on, bin on
 	{0x382a, 0x03, "0x0100", eReadWrite}, // y odd inc
 	{0x3830, 0x08, "0x0100", eReadWrite},
 	{0x3836, 0x02, "0x0100", eReadWrite},
@@ -1892,7 +1892,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_fourlane_R2A[] =
 	{0x380e, 0x09, "0x0100", eReadWrite}, // VTS H
 	{0x380f, 0xaa, "0x0100", eReadWrite}, // VTS L
 	{0x3814, 0x01, "0x0100", eReadWrite}, // x odd inc
-	{0x3821, 0x45, "0x0100", eReadWrite}, // mirror on, bin off
+	{0x3821, 0x46, "0x0100", eReadWrite}, // mirror on, bin off
 	{0x382a, 0x01, "0x0100", eReadWrite}, // y odd inc
 	{0x3830, 0x06, "0x0100", eReadWrite},
 	{0x3836, 0x01, "0x0100", eReadWrite},
@@ -2159,7 +2159,7 @@ const IsiRegDescription_t OV8858_g_aRegDescription_twolane_R2A[] =
 	{0x3814, 0x03, "0x0100",eReadWrite}, // x odd inc
 	{0x3815, 0x01, "0x0100",eReadWrite}, // x even inc
 	{0x3820, 0x00, "0x0100",eReadWrite}, // vflip off
-	{0x3821, 0x65, "0x0100",eReadWrite}, // mirror on, bin on
+	{0x3821, 0x67, "0x0100",eReadWrite}, // mirror on, bin on
 	{0x382a, 0x03, "0x0100",eReadWrite}, // y odd inc
 	{0x382b, 0x01, "0x0100",eReadWrite}, // y even inc
 	{0x3830, 0x08, "0x0100",eReadWrite}, //
@@ -2303,7 +2303,7 @@ const IsiRegDescription_t OV8858_g_1632x1224_twolane_R2A[] =
 	{0x380e,0x04,"0x0100",eReadWrite}, // VTS H
 	{0x380f,0xdc,"0x0100",eReadWrite}, // VTS L
 	{0x3814,0x03,"0x0100",eReadWrite}, // x odd inc
-	{0x3821,0x65,"0x0100",eReadWrite}, // mirror on, bin on
+	{0x3821,0x67,"0x0100",eReadWrite}, // mirror on, bin on
 	{0x382a,0x03,"0x0100",eReadWrite}, // y odd inc
 	{0x3830,0x08,"0x0100",eReadWrite},
 	{0x3836,0x02,"0x0100",eReadWrite},
@@ -2347,7 +2347,7 @@ const IsiRegDescription_t OV8858_g_3264x2448_twolane_R2A[] =
 	{0x380e,0x09,"0x0100",eReadWrite},// VTS H
 	{0x380f,0xaa,"0x0100",eReadWrite},// VTS L
 	{0x3814,0x01,"0x0100",eReadWrite},// x odd inc
-	{0x3821,0x45,"0x0100",eReadWrite},// mirror on, bin off
+	{0x3821,0x46,"0x0100",eReadWrite},// mirror on, bin off
 	{0x382a,0x01,"0x0100",eReadWrite},// y odd inc
 	{0x3830,0x06,"0x0100",eReadWrite},
 	{0x3836,0x01,"0x0100",eReadWrite},
