@@ -279,11 +279,14 @@
 	6) AWB measuring window can config in IQ xml.
 *v1.0x43.0:
     1) fix ion handle compile error when compatible with android marshallow and nougat.
+*v1.0x44.0:
+    1) fix the bug of AEC\AWB\Denosise\sharpen IQ xml parameter config.
+    2) fix the bug that capture can't get right integral time information.
 */
 
 
 
-#define CONFIG_SILICONIMAGE_LIBISP_VERSION KERNEL_VERSION(1, 0x43, 0)
+#define CONFIG_SILICONIMAGE_LIBISP_VERSION KERNEL_VERSION(1, 0x44, 0)
 
 
 class CamEngineItf;
