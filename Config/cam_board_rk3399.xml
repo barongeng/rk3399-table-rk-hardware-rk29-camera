@@ -526,7 +526,7 @@
 			<HardWareInfo>
 				<Sensor>
 					<SensorName name="OV8858" ></SensorName>
-					<SensorLens name="LY8M6001"></SensorLens>
+					<SensorLens name="LG-9569A2"></SensorLens>
 					<SensorDevID IDname="CAMSYS_DEVID_SENSOR_1A"></SensorDevID>
 					<SensorHostDevID busnum="CAMSYS_DEVID_MARVIN" ></SensorHostDevID>
 					<SensorI2cBusNum busnum="1"></SensorI2cBusNum>

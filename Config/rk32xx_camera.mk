@@ -7,7 +7,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV8820/calib/OV8820.xml:system/etc/OV8820.xml \
-hardware/rockchip/camera/SiliconImage/isi/drv/OV8858/calib/OV8858_LY8M6001.xml:system/etc/OV8858_LY8M6001.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV8825/calib/OV8825.xml:system/etc/OV8825.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV8858/calib/OV8858.xml:system/etc/OV8858.xml \
     hardware/rockchip/camera/SiliconImage/isi/drv/OV8858/calib/OV8858_lens_LG-9569A2.xml:system/etc/OV8858_lens_LG-9569A2.xml \
