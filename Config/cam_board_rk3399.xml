@@ -540,7 +540,7 @@
 					<SensorGpioRst ioname="RK30_PIN2_PD3" active="0" delay="1000"></SensorGpioRst>
 					<SensorGpioPwdn0 ioname="NC" active="0" delay="0"></SensorGpioPwdn0>
 					<SensorGpioPwdn1 ioname="NC" active="0" delay="1000"></SensorGpioPwdn1>
-					<SensorFacing facing="back"></SensorFacing>
+					<SensorFacing facing="front"></SensorFacing>
 					<SensorInterface interface="MIPI"></SensorInterface>
 					<SensorMirrorFlip mirror="0"></SensorMirrorFlip>
 					<SensorOrientation orientation="0"></SensorOrientation>
